@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: grid;
+    background-color: rgb(178, 255, 255);
+    grid-template-areas: "hd hd"
+                        "main sidebar"
+                        "footer footer";
+}
+
+header {
+    /*background-color: bisque;*/
+    grid-area: hd;
+}
+
+aside {
+   grid-area: sidebar;
+}
+
+main {
+    /*background-color: blueviolet;*/
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+header {
+    margin: 15px;
+    padding: 4px;
+    
+}
+/*.wrapper {
+    margin: 0 auto;
+    width: 1000px ;
+}*/
+
+/*Header*/
+.surfer-1 {
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+/*Home*/
+.black-border {
+    border: 4px solid black;
+    margin: 5px 4px 4px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+    background-color: cyan;    
+    border: 2px solid black;
+    
+    
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-style: double;
+    border-radius: 10% 20%;
+    background-color: cyan;
+    margin: 15px;
+}
+
+h3, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 18%;
+    margin: 5px;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(243, 243, 186); 
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 15px 16px;  
+}
+
+footer {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    background-color: cyan;
+    margin: 20px 10px 15px;
+    padding: 5px;
+}
+
+/*Flex home*/
+.flex-container {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin: 1px;
+    padding: 1px;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 20px;*/
+}
+
+/*Home*/
+.box-1 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    /*width: 670px;
+    text-align: left;
+    border-style: solid;
+    margin: 3px;
+    padding-left: 3px;*/
+    
+}
+
+.box-2 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;  
+}
+
+.box-3 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*About*/
+.box-4 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-5 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+/*About*/
+.flex-container-2 {
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin: 1px;
+}
+
+/* About Longboard*/
+.surfer-3 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px; 
+}
+
+/*Gallery*/
+.image-grid-container {
+    display: flex;
+    /*background-color: antiquewhite;*/
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 1px;
+}
+
+.surfer-5 {
+    display: flex;
+    margin: 0 auto 25px auto;
+}
+
+.gallery-img-1{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-2{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-3{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-4{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-5{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-6{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-7{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-8{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+.gallery-img-9{
+    flex: 1;
+    margin: 2px;
+    padding: 2px;
+}
+
+/*Contact*/
+.container-10 {
+    display: flex;
+    align-items: left;
+    box-sizing: border-box;
+    flex-direction: wrap;
+    margin: 1px;
+    padding: 1px;
+}
+
+.contact-form {
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: left;
+}
+
+
+.box-8 {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.surfer-6 {
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+
+/*Media*/
+.container-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-1 {  
+    display: flex;
+    margin: 5px;
+}
+
+.video-2 {  
+    display: flex;
+    margin: 5px;
+}
+.video-3 {
+    display: flex;
+    margin: 5px;
+}
+.video-4 {
+    display: flex;
+    margin: 5px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(247, 230, 136) ;
+    }
+    
+    h1, h2, footer {
+        background: rgb(241, 241, 202);
+    }
+
+    nav ul {
+        background-color: rgb(182, 240, 240);
+    }
+}
+
+/*Home*/
+@media screen and (max-width: 800px) {
+    .flex-container {
+        flex-direction: column; 
+    }
+
+    .surfer-1 {
+        width: 88%;
+    }
+}
+
+/*About*/
+@media screen and (max-width: 800px) {
+    .flex-container-2 {
+        flex-direction: column;
+    }
+
+    .surfer-3 {
+        width: 100%;
+    }
+}
+
+/*Gallery*/
+@media screen and (max-width: 400px) {
+    .image-grid-container{
+        flex-direction: column;
+    }
+
+    .surfer-5 {
+        width: 98%;
+        height: 65%;
+    }
+
+    .gallery-img {
+        flex-direction: column;
+    }
+}
+
+/*Contact*/
+@media screen and (max-width: 800px) {
+    .container-10 {
+        flex-direction: column;
+    }
+    
+    .contact-form {
+        flex-direction: column;
+    }   
+
+    .surfer-6 {
+        flex-direction: row;
+        width: 250px;
+        height: 250px;
+    }
+}
+    
+/*Media*/
+@media screen and (max-width: 800px) {
+    .container-video {
+        display: flex;
+        flex-direction: column;
+         
+    }
+
+    .video-1  {
+        flex-direction: column;  
+    }
+    .video-2 {
+        flex-direction: column;
+    }
+    .video-3 {
+        flex-direction: column;
+    }
+    .video-4 {
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+
+
